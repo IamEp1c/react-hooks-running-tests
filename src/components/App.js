@@ -5,7 +5,7 @@ import Header from './Header'
 function App() {
   return <div className="App">
     learn react!
-    <Header/>
+    <Header burrito={blogData.name}/> 
     <Article />
   </div>;
 }
